@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img{
+  max-width: 100%;
+  display: block;
+}
+.content{
+  padding: 80px 10px;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+.content-m{
+
+  column-count: 3;
+  gap: 20px;
+}
+
+.masonry-item{
+  margin-bottom: 20px; 
+  border-radius: 5px;
+  overflow: hidden;
+  break-inside: avoid-column;
+  display: none;
+}
+.nav-projetos li{
+  cursor: pointer;
+  margin: 20px;
+  display: inline-block;
+  padding: 10px;
+  background-color: tomato;
+}
+
+.ativo{
+  display: block;
+}
